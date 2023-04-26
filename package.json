@@ -1,0 +1,29 @@
+{
+  "name": "email-verification-tool",
+  "version": "1.0.0",
+  "description": "Enter an email address below to check in real-time if it's real, using our npm package email validator.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanjaintkg9509/email-verification-tool.git"
+  },
+  "keywords": [
+    "email verification",
+    "email validator"
+  ],
+  "author": "Aman Jain <amanjain.ietdavv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amanjaintkg9509/email-verification-tool/issues"
+  },
+  "homepage": "https://github.com/amanjaintkg9509/email-verification-tool#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": ["lib/**/*"]
+}
